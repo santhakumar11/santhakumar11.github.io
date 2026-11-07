@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Santha Kumar Blog</title>
+    <link>https://santhakumar11.github.io/</link>
+    <description>Technology blog covering software engineering, web development, AI, cloud, and product thinking.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>Designing clean interfaces that still feel powerful</title>
+      <link>https://santhakumar11.github.io/post.html</link>
+      <guid>https://santhakumar11.github.io/post.html</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0000</pubDate>
+      <description>Thoughts on balancing clarity, depth, and responsive design in modern product interfaces.</description>
+    </item>
+
+    <item>
+      <title>From idea to production: a simple workflow for dev teams</title>
+      <link>https://santhakumar11.github.io/post.html</link>
+      <guid>https://santhakumar11.github.io/post.html?article=production-workflow</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0000</pubDate>
+      <description>A practical look at moving from idea to production while keeping quality and clarity intact.</description>
+    </item>
+
+    <item>
+      <title>Why GitHub Pages is a smart choice for developer portfolios</title>
+      <link>https://santhakumar11.github.io/post.html</link>
+      <guid>https://santhakumar11.github.io/post.html?article=github-pages</guid>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0000</pubDate>
+      <description>Why static hosting is a fast and reliable option for blogs, docs, and personal sites.</description>
+    </item>
+  </channel>
+</rss>
