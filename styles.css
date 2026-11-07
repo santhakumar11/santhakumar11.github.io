@@ -323,6 +323,24 @@ h3 {
   margin-bottom: 10px;
 }
 
+.visitor-counter-card {
+  background: linear-gradient(135deg, rgba(13, 110, 253, 0.05), rgba(25, 135, 84, 0.05));
+}
+
+#visitor-count {
+  display: inline-block;
+  min-width: 4ch;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #0d6efd;
+  line-height: 1.2;
+}
+
+.visitor-counter-card .meta {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
 .topic-list,
 .archive-list,
 .contact-list,
