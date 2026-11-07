@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Santha Kumar about technology, product ideas, collaborations, or blog feedback." />
+    <link rel="alternate" type="application/rss+xml" title="Santha Kumar Blog" href="rss.xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Contact | Santha Kumar</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Santha Kumar home">
+          <span class="brand-mark">SK</span>
+          <span>Santha Kumar</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="archive.html">Archive</a>
+          <a href="about.html">About</a>
+          <a class="active" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main container">
+      <section class="page-hero card">
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s connect</h1>
+      </section>
+
+      <section class="contact-grid">
+        <div class="card">
+          <h2>Send a message</h2>
+          <form class="contact-form" action="mailto:santhakumar11@example.com" method="post" enctype="text/plain">
+            <label>
+              Full name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="Your email" />
+            </label>
+            <label>
+              Subject
+              <input type="text" name="subject" placeholder="How can I help?" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Write your message here"></textarea>
+            </label>
+            <button type="submit" class="button primary">Send message</button>
+          </form>
+        </div>
+
+        <div class="card info-card">
+          <h2>Reach out</h2>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:santhakumar11@example.com">santhakumar11@example.com</a></li>
+            <li>GitHub: <a href="https://github.com/santhakumar11" target="_blank" rel="noreferrer">github.com/santhakumar11</a></li>
+            <li>Website: <a href="https://santhakumar11.github.io/" target="_blank" rel="noreferrer">santhakumar11.github.io</a></li>
+          </ul>
+          <p>
+            I enjoy hearing from readers, developers, and founders building
+            thoughtful products and learning in public.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Santha Kumar</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="archive.html">Archive</a>
+          <a href="rss.xml">RSS</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
